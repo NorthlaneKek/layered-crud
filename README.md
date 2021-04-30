@@ -28,3 +28,6 @@
 
 ## Swagger
 Доступен по ссылке {service_host}:{service_port}/swagger-ui.html (в нашем случае localhost:8010/swagger-ui.html)
+
+## Exit application
+Эндпоинт без токена, возвращающий 301 статус и редирект на /exit-success
